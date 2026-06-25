@@ -1,0 +1,98 @@
+{
+  "best_model_name": "Logistic Regression",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.7104,
+      "Precision": 0.5589,
+      "Recall": 0.7371,
+      "F1 Score": 0.6357,
+      "ROC-AUC": 0.7895
+    },
+    "Random Forest": {
+      "Accuracy": 0.7111,
+      "Precision": 0.5671,
+      "Recall": 0.6646,
+      "F1 Score": 0.612,
+      "ROC-AUC": 0.7752
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.7083,
+      "Precision": 0.5584,
+      "Recall": 0.7122,
+      "F1 Score": 0.626,
+      "ROC-AUC": 0.7713
+    },
+    "XGBoost": {
+      "Accuracy": 0.6969,
+      "Precision": 0.5488,
+      "Recall": 0.6522,
+      "F1 Score": 0.596,
+      "ROC-AUC": 0.7627
+    },
+    "Decision Tree": {
+      "Accuracy": 0.6693,
+      "Precision": 0.5127,
+      "Recall": 0.7101,
+      "F1 Score": 0.5955,
+      "ROC-AUC": 0.7445
+    }
+  },
+  "feature_columns": [
+    "Gender",
+    "SeniorCitizen",
+    "Age",
+    "Partner",
+    "Dependents",
+    "Tenure",
+    "PhoneService",
+    "PaperlessBilling",
+    "MonthlyCharges",
+    "TotalCharges",
+    "CustomerSupportCalls",
+    "AvgChargePerTenure",
+    "IsNewCustomer",
+    "HighSupportCalls",
+    "TotalAddonServices",
+    "ChargeVsTierAvg",
+    "IsMonthToMonth",
+    "MultipleLines_No Phone Service",
+    "MultipleLines_Yes",
+    "InternetService_Fiber Optic",
+    "InternetService_No",
+    "OnlineSecurity_No Internet Service",
+    "OnlineSecurity_Yes",
+    "OnlineBackup_No Internet Service",
+    "OnlineBackup_Yes",
+    "DeviceProtection_No Internet Service",
+    "DeviceProtection_Yes",
+    "TechSupport_No Internet Service",
+    "TechSupport_Yes",
+    "StreamingTV_No Internet Service",
+    "StreamingTV_Yes",
+    "StreamingMovies_No Internet Service",
+    "StreamingMovies_Yes",
+    "Contract_One Year",
+    "Contract_Two Year",
+    "PaymentMethod_Credit Card",
+    "PaymentMethod_Electronic Check",
+    "PaymentMethod_Mailed Check"
+  ],
+  "top_features": {
+    "Tenure": 0.2010063542699058,
+    "TotalCharges": 0.15986083053910907,
+    "MonthlyCharges": 0.07936060975953817,
+    "AvgChargePerTenure": 0.07814680410514213,
+    "Contract_Two Year": 0.0661491756150473,
+    "IsMonthToMonth": 0.06549441251210363,
+    "ChargeVsTierAvg": 0.04426273357598216,
+    "Age": 0.0424037654758836,
+    "CustomerSupportCalls": 0.028192014996040436,
+    "InternetService_Fiber Optic": 0.01831642005771937,
+    "TotalAddonServices": 0.014469551060346385,
+    "PaymentMethod_Electronic Check": 0.014406058944092847,
+    "Contract_One Year": 0.012488993677538748,
+    "Partner": 0.011632734480034107,
+    "OnlineBackup_No Internet Service": 0.011098396808144777
+  },
+  "needs_scaling": true
+}
