@@ -1,16 +1,6 @@
-# 📊 Customer Churn Prediction
+Customer Churn Prediction
 
-An end-to-end data science project that predicts whether a customer is likely to churn,
-identifies the key drivers of churn, and turns those insights into actionable retention
-strategies — complete with EDA, multiple ML models, and an interactive Streamlit dashboard.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
----
 
 ## 🧭 Project Overview
 
